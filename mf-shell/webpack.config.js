@@ -4,9 +4,7 @@ const {
 } = require("@angular-architects/module-federation/webpack");
 
 const moduleFederationConfig = withModuleFederationPlugin({
-  remotes: {
-    mfShopping: "http://localhost:4201/remoteEntry.js",
-  },
+  remotes: {},
 
   shared: {
     ...shareAll({
